@@ -1,0 +1,20 @@
+{
+    "name": "eelkevdbos/autograph-php",
+    "description": "Small php library to sign objects using HMAC-SHA",
+    "keywords": ["hmac", "sha", "authentication", "signing"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eelke van den Bos",
+            "email": "eelkevdbos@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Autograph\\": "src/"
+        }
+    }
+}
