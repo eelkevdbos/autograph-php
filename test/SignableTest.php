@@ -17,7 +17,7 @@ class SignableTest extends PHPUnit_Framework_TestCase {
 
     public function testSettersAndGetters()
     {
-        $this->instance->setSignature($signature = new \Autograph\Signature('my_key', new DateTimeImmutable(), '1.0'));
+        $this->instance->setSignature($signature = new \Autograph\Signature('my_key', time(), '1.0'));
         $this->assertEquals($this->instance->getSignature(), $signature);
     }
 
