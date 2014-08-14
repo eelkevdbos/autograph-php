@@ -1,4 +1,4 @@
-firebase-php
+autograph-php
 ============
 
 [![Build Status](https://travis-ci.org/eelkevdbos/autograph-php.svg?branch=master)](https://travis-ci.org/eelkevdbos/autograph-php)
