@@ -15,3 +15,5 @@ Add the following line to your composer.json and run `composer update`:
   }
 }
 ```
+
+Can also be installed by executing `composer require eelkevdbos/autograph-php dev-master`
