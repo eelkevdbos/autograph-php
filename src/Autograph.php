@@ -1,12 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Eelke
- * Date: 11-8-14
- * Time: 23:05
- */
-
-namespace Autograph;
+<?php namespace Autograph;
 
 class Autograph {
 
